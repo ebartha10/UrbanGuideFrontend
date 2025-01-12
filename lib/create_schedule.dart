@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:location/location.dart';
 import 'package:project2/backend/api_calls.dart';
@@ -201,7 +202,7 @@ Future<void> _getUserLocation() async {
                               ),
                               enableNearbyPlaces: true,
 
-                              apiKey: 'AIzaSyBxgz6gTcHAb4nXusUvxroxacep3_vAnbI',
+                              apiKey: dotenv.env['GOOGLE_MAPS_API_KEY']!,
                               onPlacePicked: (LocationResult result) {
                                 setState(() {
                                   locationName = result.locality?.longName;
