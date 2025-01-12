@@ -1,0 +1,120 @@
+{
+    "daytime": {
+        "title": "Puncte de interes pentru zi",
+        "categories": [
+            {
+                "title": "Muzee și galerii de artă",
+                "subcategories": []
+            },
+            {
+                "title": "Parcuri și grădini",
+                "subcategories": [
+                    "Parcuri",
+                    "Grădini botanice",
+                    "Grădini zoologice",
+                    "Rezervații naturale"
+                ]
+            },
+            {
+                "title": "Monumente istorice și clădiri emblematice",
+                "subcategories": [
+                    "Monumente importante",
+                    "Turnuri de observație",
+                    "Biserici și catedrale vechi"
+                ]
+            },
+            {
+                "title": "Piețe și târguri locale",
+                "subcategories": []
+            },
+            {
+                "title": "Străzi și cartiere istorice",
+                "subcategories": [
+                    "Centrul vechi al orașului",
+                    "Străzi pietonale cu arhitectură specifică"
+                ]
+            },
+            {
+                "title": "Atracții naturale",
+                "subcategories": [
+                    "Plaje",
+                    "Lacuri",
+                    "Drumeții montane",
+                    "Cascade"
+                ]
+            },
+            {
+                "title": "Clădiri administrative sau faimoase",
+                "subcategories": [
+                    "Primăria orașului",
+                    "Clădiri istorice guvernamentale",
+                    "Biblioteci naționale"
+                ]
+            },
+            {
+                "title": "Piețe de flori și piețe alimentare",
+                "subcategories": [
+                    "Piața centrală",
+                    "Bazaruri alimentare"
+                ]
+            }
+        ]
+    },
+    "nighttime": {
+        "title": "Puncte de interes pentru noapte",
+        "categories": [
+            {
+                "title": "Priveliști panoramice și puncte de observație",
+                "subcategories": [
+                    "Platforme de observare iluminate",
+                    "Turnuri sau faruri cu vedere panoramică",
+                    "Poduri faimoase"
+                ]
+            },
+            {
+                "title": "Piețe și străzi pietonale animate",
+                "subcategories": [
+                    "Piețe principale cu terase și cafenele",
+                    "Străzi pietonale cu artiști de stradă și târguri nocturne"
+                ]
+            },
+            {
+                "title": "Teatre și săli de concert",
+                "subcategories": [
+                    "Săli de operă",
+                    "Teatre de comedie sau drame",
+                    "Concerte de muzică live"
+                ]
+            },
+            {
+                "title": "Baruri, cluburi și pub-uri",
+                "subcategories": [
+                    "Baruri pe acoperiș cu vedere panoramică",
+                    "Pub-uri cu muzică live",
+                    "Cluburi de noapte faimoase"
+                ]
+            },
+            {
+                "title": "Casino-uri și săli de jocuri",
+                "subcategories": [
+                    "Casino-uri moderne",
+                    "Baruri cu jocuri de societate"
+                ]
+            },
+            {
+                "title": "Cinematografe în aer liber sau drive-in",
+                "subcategories": [
+                    "Proiecții de filme în aer liber",
+                    "Cinematografe nocturne drive-in"
+                ]
+            },
+            {
+                "title": "Restaurante cu terase și localuri de lux",
+                "subcategories": [
+                    "Restaurante cu priveliște",
+                    "Terase deschise pe acoperișuri sau lângă apă"
+                ]
+            }
+        ]
+    }
+}
