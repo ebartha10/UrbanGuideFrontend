@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -12,7 +13,7 @@ class DjangoBackend {
   // Private constructor
   DjangoBackend._internal();
 
-  final String baseUrl = 'http://192.168.242.48:8000';
+  final String baseUrl = dotenv.env['SERVER_URL']!;
  
   String? _accessToken;
   String? _refreshToken;
